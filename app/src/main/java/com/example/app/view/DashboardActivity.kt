@@ -92,7 +92,7 @@ fun DashboardBody() {
                 containerColor = CoffeeBrown,
                 contentColor = White,
                 onClick = {
-                    // Logic for adding a new restaurant review
+
                 }
             ) {
                 Icon(
@@ -102,7 +102,7 @@ fun DashboardBody() {
             }
         },
         topBar = {
-            // Replaced CenterAlignedTopAppBar with a Custom Surface to avoid Experimental errors
+
             Surface(
                 modifier = Modifier.fillMaxWidth(),
                 color = CoffeeBrown,
@@ -111,7 +111,7 @@ fun DashboardBody() {
                 Row(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .padding(top = 32.dp) // Adjustment for edge-to-edge
+                        .padding(top = 32.dp)
                         .height(64.dp)
                         .padding(horizontal = 8.dp),
                     verticalAlignment = Alignment.CenterVertically,
